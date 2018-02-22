@@ -5,6 +5,15 @@
 h1 {
     font-family: 'Pacifico', cursive, sans-serif;
 }
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+#navcontainer {
+    display: flex;
+    flex-direction: row;
+}
 .navIcon {
     height: 30px;
 }

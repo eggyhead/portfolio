@@ -10,7 +10,8 @@ import firebase from 'APP/fire'
 const App = ({children}) =>
   <div>
     <Navbar />
-    <h1>TESTING MAIN</h1>
+    <h1>Welcome!</h1>
+    <p>My name is Erika and I'm a fullstack developer with a passion for clean code and creative design. Check out these links or send me an email!</p>
    
   </div>
 
