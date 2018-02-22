@@ -9,8 +9,9 @@ import firebase from 'APP/fire'
 
 const App = ({children}) =>
   <div>
-    TESTING MAIN
     <Navbar />
+    <h1>TESTING MAIN</h1>
+   
   </div>
 
 render(
