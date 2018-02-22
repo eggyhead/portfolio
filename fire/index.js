@@ -2,12 +2,12 @@ const firebase = require('firebase')
 
 // -- // -- // -- // Firebase Config // -- // -- // -- //
 const config = {
-  apiKey: 'AIzaSyBzz-Wq2dzMgM7E8cdSYnYoX5fbVUT-XQo',
-  authDomain: 'firebones-6bc2a.firebaseapp.com',
-  databaseURL: 'https://firebones-6bc2a.firebaseio.com',
-  projectId: 'firebones-6bc2a',
-  storageBucket: 'firebones-6bc2a.appspot.com',
-  messagingSenderId: '1030378391678'
+  apiKey: "AIzaSyBrWxjGbQvzNBWDAq3JoAPo-81rlDaVAjA",
+  authDomain: "eweil-portfolio.firebaseapp.com",
+  databaseURL: "https://eweil-portfolio.firebaseio.com",
+  projectId: "eweil-portfolio",
+  storageBucket: "eweil-portfolio.appspot.com",
+  messagingSenderId: "315815671758"
 }
 // -- // -- // -- // -- // -- // -- // -- // -- // -- //
 
@@ -21,3 +21,5 @@ const config = {
 firebase.__bonesApp || (firebase.__bonesApp = firebase.initializeApp(config))
 
 module.exports = firebase
+
+
