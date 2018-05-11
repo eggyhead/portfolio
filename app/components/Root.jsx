@@ -9,10 +9,10 @@ const Root = () => {
   return (
     <div>
         <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/projects" component={Projects} />
-                </Switch>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+        </Switch>
     </div>
   )
 }
