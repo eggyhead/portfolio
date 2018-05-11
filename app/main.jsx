@@ -1,6 +1,6 @@
 'use strict'
 import React from 'react'
-import {Router, Route, Switch, IndexRedirect, browserHistory} from 'react-router'
+import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
 import {render} from 'react-dom'
 
 import NotFound from './components/NotFound'
