@@ -3,12 +3,11 @@ import { Link } from 'react-router'
 
 const Profile = () => {
   return (
-    <div id="profilecontainer">   
+    <div id="profilecontainer">
         <div><img src= '/laptop.png' id="laptop"/></div>
-        <div><img src= '/profile.png' id="laptop"/></div>
-        
+        <div><img src= '/profile.png' id="profile"/></div>
     </div>
   )
 }
 
-export default Profile;
+export default Profile

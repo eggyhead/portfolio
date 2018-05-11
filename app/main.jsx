@@ -7,6 +7,7 @@ import NotFound from './components/NotFound'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Profile from './components/Profile'
+import Projects from './components/Projects'
 import firebase from 'APP/fire'
 
 const App = ({children}) =>
@@ -17,7 +18,8 @@ const App = ({children}) =>
 
 render(
   <Router history={browserHistory}>
-    <Route path="/" component={App}> </Route>  
+    <Route path="/" component={App}> </Route>
+    <Route exact path="/projects" component={Projects}> </Route>
     <Route path='*' component={NotFound}/>
   </Router>,
   document.getElementById('main')

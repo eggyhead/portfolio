@@ -1,0 +1,5 @@
+export { default as NotFound } from './NotFound.jsx'
+export { Navbar } from './Navbar.jsx'
+export { Home } from './Home.jsx'
+export { Profile } from './Profile.jsx'
+export { Projects } from './Projects.jsx'
